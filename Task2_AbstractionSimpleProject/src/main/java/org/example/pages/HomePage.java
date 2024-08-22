@@ -16,7 +16,7 @@ public class HomePage extends MLActions {
     @FindBy(xpath = "//a[@class='nav-logo']")
     private WebElement navLogo;
 
-    @FindBy(xpath = "//input[@class='nav-search-input']")
+    @FindBy(id = "cb1-edit")
     private WebElement searchInput;
 
     @FindBy(xpath = "//button[@class='nav-search-btn']")
